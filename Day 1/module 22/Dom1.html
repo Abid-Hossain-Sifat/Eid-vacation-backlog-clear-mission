@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entry in dom</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="tailconnect.css">
+</head>
+
+<body>
+    <header class="p-5 text-center text-3xl text-red-400 underline">
+        This is heading part of Entry in DOM (Document Object Model)
+    </header>
+
+    <section class="bg-amber-500">
+        <div class="flex p-40 justify-between items-center">
+            <div class="bg-amber-300">
+                <p id="damiText">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> Temporibus deleniti esse nesciunt
+                    quaerat
+                    accusamus facere hic, <br> inventore perspiciatis, earum quas voluptate eius, consequuntur
+                    consectetur? <br>
+                    Deleniti quod recusandae id, nostrum nisi officia illum debitis, inventore fugiat accusamus animi
+                    <br>
+                    ex! Dolorem numquam nemo minus enim rem omnis repellat, sapiente alias veniam optio.
+                </p>
+            </div>
+            <div class="flex flex-col gap-4 bg-amber-100">
+                <button class="btn btn-primary">
+                    Click here
+                </button>
+                <button class="btn btn-error">
+                    Connect us
+                </button>
+                <button class="btn btn-defoult">
+                    Enroll Now
+                </button>
+                <button class="btn btn-primary">
+                    Get discount
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-blue-300 items-center text-center">
+        <h2 class="text-4xl bg-yellow-50 my-5">
+            Our Services
+        </h2>
+        <h4>
+            service count <span id="count">0</span>
+        </h4>
+        <ol>
+            <li>Service 1</li>
+            <li>Service 2</li>
+            <li>Service 3</li>
+            <li>Service 4</li>
+            <li>Service 5</li>
+            <li>Service 6</li>
+        </ol>
+    </section>
+<script>
+    console.log ("Hello from Internal Javascript")
+</script>
+<script src="./Scripts/script1.js"></script>
+</body>
+
+</html>
