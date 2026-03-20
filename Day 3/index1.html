@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+</head>
+
+<body>
+    <header>
+        <div class="w-[80%] mx-auto bg-gray-100 text-center text-3xl font-bold p-4">
+            <h1>
+                Welcome to Event handling in JavaScript
+            </h1>
+        </div>
+
+
+    </header>
+    <main>
+        <div class="text-center text-4xl bg-pink-50 my-10">
+            <h1>
+                Click the button to see the event handling in action
+            </h1>
+        </div>
+        <div class="flex px-10 text-center justify-between gap-20 items-center bg-blue-500 p-[100px]">
+            <div class="bg-blue-200 rounded-2xl p-5">
+                <p id="dText">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Quia neque quis, repudiandae
+                    eveniet
+                    perspiciatis <br> atque doloremque corporis excepturi porro voluptatem velit vitae et vero
+                    sapiente.
+                </p>
+            </div>
+            <div class="bg-blue-200 p-[100px] rounded-full">
+                <button class="btn btn-primary rounded-full" id="changeText">
+                    Click here for change dami text
+                </button>
+                <button class="btn btn-primary rounded-full" id="getOriginalText">
+                    Click here for original text
+                </button>
+            </div>
+        </div>
+    </main>
+
+    <section>
+        <div>
+            <h1 class="text-center text-5xl font-bold my-5 bg-amber-300 p-5">
+                Owner Details
+            </h1>
+        </div>
+        <div class="flex justify-between px-[200px] items-center text-center">
+            <div>
+                <ol class="text-center text-xl p-5" id="details">
+                    <li>
+                        Name: <span id="name">
+                            John Doe
+                        </span>
+                    </li>
+                    <li>
+                        Age: <span id="age">
+                            30
+                        </span>
+                    </li>
+                    <li>
+                        Email: <span id="email">
+                            john.doe@example.com
+                        </span>
+                    </li>
+                    <li>
+                        Contact: <span id="contact">
+                            123-456-7890
+                        </span>
+                    </li>
+                </ol>
+            </div>
+            <div class="bg-blue-200 p-[100px] flex gap-10 flex-col">
+                <button id="cngOwner" class="btn btn-soft btn-success">
+                    Change Owner
+                </button>
+                <button id="getOriginalOwner" class="btn btn-soft btn-error">
+                    Get Original Owner
+            </div>
+        </div>
+    </section>
+
+    <script src="./Scripts/event1.js"></script>
+</body>
+
+</html>
